@@ -4,6 +4,7 @@
     padding: 0;
     font-family: poppins;
     color: white;
+   
 }
 .container{
     display: flex;
@@ -11,6 +12,7 @@
     justify-content: center;
     flex-direction: column;
     background-color: #242B2E ;
+    height: 100vh;
 }
 textarea{
     width: 90%;
