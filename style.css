@@ -6,13 +6,16 @@
     color: white;
    
 }
+.parent-container{
+    
+}
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background-color: #242B2E ;
-    height: 100vh;
+    
 }
 textarea{
     width: 90%;
@@ -38,7 +41,7 @@ textarea{
     background: rgb(254,234,39);
     width: 100%;
     text-align: center;
-    height: 5rem;
+    height: 10vh;
 
 }
 .heading{
@@ -50,13 +53,14 @@ textarea{
 }
 .about-section{
     width: 50%;
-    padding: 4rem;
-    align-items: center;
+    padding: 0 4rem 4rem 4rem;
+    
 }
 .paraller-container{
     display: flex;
     align-items: center;
     padding: 0 4rem;
+    height: 90vh;
     
 }
 .translator{
@@ -77,5 +81,5 @@ textarea{
     margin-top: 1rem;
 }
 #image{
-    height: 15rem
+    height: 20rem
 }
